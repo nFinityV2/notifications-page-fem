@@ -123,3 +123,9 @@ header, main, footer {
     font-size: 11px;
     color: hsl(228, 45%, 44%); 
  }
+
+ @media (min-width: 1024px){
+    main {
+        margin: 0 1.5em;
+    }
+ }
