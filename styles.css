@@ -48,6 +48,10 @@ header, main, footer {
     font-size: 0.9rem;
 }
 
+.notif-container > button:hover {
+    color: var(--blue);
+}
+
 .notif-counter {
     background-color: var(--blue);
     color: var(--very-light-grayish-blue);
@@ -66,10 +70,6 @@ header, main, footer {
     border-radius: 50%;
     width: 8px;
     height: 8px;
-}
-
-.comment {
-    
 }
 
 .feed-block {
@@ -112,16 +112,26 @@ header, main, footer {
     padding: 1em;
 }
 
+.feed-dm:hover{
+    background-color: var(--light-grayish-blue-1);
+}
+
 .feed-duration {
     color: var(--grayish-blue);
     margin: 0.25em 0 0 0;
 }
 
-.feed-group-prof{}
-
 .feed-group-prof > img{
     max-width: 45px;
     max-height: 45px;
+}
+
+.feed-post-name:hover, .feed-post-link:hover {
+    color: var(--blue);
+}
+
+.feed-post-name, .feed-group-prof, .feed-post-link, .feed-post-group, .feed-dm{
+    cursor: pointer;
 }
 
 .attribution { 
