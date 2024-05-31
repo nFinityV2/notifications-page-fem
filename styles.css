@@ -68,6 +68,10 @@ header, main, footer {
     height: 8px;
 }
 
+.comment {
+    
+}
+
 .feed-block {
     display: flex;
     align-items: center;
@@ -111,6 +115,13 @@ header, main, footer {
 .feed-duration {
     color: var(--grayish-blue);
     margin: 0.25em 0 0 0;
+}
+
+.feed-group-prof{}
+
+.feed-group-prof > img{
+    max-width: 45px;
+    max-height: 45px;
 }
 
 .attribution { 
