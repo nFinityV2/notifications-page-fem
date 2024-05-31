@@ -71,10 +71,11 @@ header, main, footer {
 .feed-block {
     display: flex;
     align-items: center;
+    margin: 0.75em 0;
     gap: 10px;
     border-radius: 15px;
     padding: 0.5em 1em;
-    color: var(--grayish-blue);
+    color: var(--dark-grayish-blue);
 }
 
 .feed-img {
@@ -92,12 +93,19 @@ header, main, footer {
 
 .feed-post-link {
     color: var(--dark-grayish-blue);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .feed-post-group {
     color: var(--blue);
-    font-weight: 800;
+    font-weight: 700;
+}
+
+.feed-dm {
+    margin-top: 1em;
+    border-radius: 5px;
+    border: 1px solid var(--light-grayish-blue-2);
+    padding: 1em;
 }
 
 .feed-duration {
