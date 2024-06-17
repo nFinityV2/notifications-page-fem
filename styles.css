@@ -146,6 +146,12 @@ header, main, footer {
  }
 
  @media (min-width: 1024px){
+    body {
+        display: block;
+        margin: auto;
+        max-width: 80%;
+    }
+
     main {
         margin: 0 1.5em;
     }
