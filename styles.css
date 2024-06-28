@@ -145,6 +145,12 @@ header, main, footer {
     color: hsl(228, 45%, 44%); 
  }
 
+ @media (min-width: 768px){
+    .feed-group-prof {
+        margin-left: 15em;
+    }
+ }
+
  @media (min-width: 1024px){
     body {
         display: block;
@@ -154,5 +160,9 @@ header, main, footer {
 
     main {
         margin: 0 1.5em;
+    }
+
+    .feed-group-prof {
+        margin-left: 17em;
     }
  }
